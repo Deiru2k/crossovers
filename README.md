@@ -1,9 +1,7 @@
 ## Clone
   
-    git clone https://github.com/theaqua/gulp-bsc.git
-    mv gulp-bsc myNewProject
-    cd myNewProject
-    rm -rf .git
+    git clone https://github.com/Misaka42/crossovers.git
+    cd crossovers
 
 ## Install
 
