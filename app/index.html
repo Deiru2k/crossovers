@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>gulp</title>
+
+    <!-- build:css({.tmp,app}) styles/app.css -->
+    <link rel="stylesheet" href="styles/app.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="CrossoverTest">
+    <div class="container-fluid" ng-view>
+    </div>
+
+    <!-- build:js scripts/vendor.js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js(.tmp) scripts/app.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/test_ctrl.js"></script>
+    <script src="scripts/order_by.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

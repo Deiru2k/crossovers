@@ -1,0 +1,38 @@
+[
+  {
+    "name": "BMW X3",
+    "origin": "de",
+    "url": "http://podboravto.ucoz.ru/load/bmw_x3/1-1-0-5",
+    "price": 2450000,
+    "chars": {
+      "power": {"real": 190, "value": 4},
+      "momentum": {"real": 400, "value": 2},
+      "time-to-hundred": {"real": 8.1, "value": 5},
+      "consumption": {"real": 5.7, "value": 5},
+      "max-speed": {"real": 210, "value": 5},
+      "max-weight": {"real": 1745, "value": 5},
+      "engine-volume": {"real": 2, "value": 1},
+      "gas-volume": {"real": 67, "value": 3},
+      "clearance": {"real": 204, "value": 3},
+      "storage-volume": {"real": 550, "value": 2}
+    }
+  },
+  {
+    "name": "Audi Q5",
+    "origin": "de",
+    "url": "http://podboravto.ucoz.ru/load/audi_q5/1-1-0-8",
+    "price": 2184000,
+    "chars": {
+      "power": {"real": 177, "value": 2},
+      "momentum": {"real": 380, "value": 1},
+      "time-to-hundred": {"real": 9, "value": 3},
+      "consumption": {"real": 6.8, "value": 4},
+      "max-speed": {"real": 200, "value": 3},
+      "max-weight": {"real": 1895, "value": 1},
+      "engine-volume": {"real": 2, "value": 1},
+      "gas-volume": {"real": 75, "value": 5},
+      "clearance": {"real": 200, "value": 2},
+      "storage-volume": {"real": 540, "value": 2}
+    }
+  }
+]
